@@ -1,7 +1,8 @@
 :root {
-  --purple: #6C71FF;
-  --eggshell: #FFECCA;
-  --lt-grey: #C6C0BB;
+  --purple:   #6C71FF;
+  --egg:      #FFECCA;
+  --lt-grey:  #C6C0BB;
   --drk-grey: #4E4E4E;
-  --salmon: #FF6C6C;
+  --salmon:   #FF6C6C;
+  --green:    #6AFF86;
 }
