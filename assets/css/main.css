@@ -1,3 +1,87 @@
 @import 'vars.css';
 @import 'typography.css';
 @import 'header.css';
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+}
+
+main {
+  background: var(--egg);
+  color: var(--purple);
+}
+
+img.icon {
+  width: auto;
+  height: 14px;
+}
+
+section {
+  padding: 85px;
+  max-width: 750px;
+}
+
+/* table of contents */
+
+#toc ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#toc ul li {
+  margin-bottom: .5rem;
+}
+
+#toc ul li a, #toc ul li a:visited {
+  color: var(--purple);
+}
+
+/* about */
+
+.quote-attribution {
+  margin-left: 20rem;
+}
+
+/* aside */
+
+aside {
+  background: var(--lt-grey);
+  color: var(--drk-grey);
+}
+
+aside p a {
+  color: var(--salmon);
+  text-decoration: none;
+  border-bottom: 3px solid var(--salmon);
+  padding-bottom: 2px;
+}
+
+#logos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#logos img {
+  height: 120px;
+  width: auto;
+}
+
+/* split.js */
+
+.gutter.gutter-horizontal {
+  cursor: ew-resize;
+  height: 100vh;
+  background: var(--drk-grey);
+}
+
+.gutter.gutter-horizontal:hover {
+  background: var(--green);
+}
