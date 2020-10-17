@@ -49,13 +49,17 @@ html {
 }
 
 h1 {
-  font-size: 34px;
-  margin: 0 0 44px;
+  font-size: 26px;
+  margin: 0 0 32px;
 }
 
-p, ul li a {
-  font-size: 21px;
-  line-height: 32px;
+h2 {
+  margin: 3rem 0;
+}
+
+p, a, ul li {
+  font-size: 18px;
+  line-height: 28px;
 }
 
 a {
@@ -66,7 +70,31 @@ a:hover {
   border-bottom-style: dotted;
 }
 
+ul li, !#toc ul li {
+  margin-bottom: 1.8rem;
+}
+
+#toc ul li {
+  margin-bottom: .5rem;
+}
+
 ul li a {
   border-bottom: 3px solid var(--purple);
   padding-bottom: 2px;
+}
+
+@media (min-width: 1200px) {
+  h1 {
+    font-size: 34px;
+    margin: 0 0 44px;
+  }
+
+  p, a, ul li {
+    font-size: 21px;
+    line-height: 32px;
+  }
+
+  #toc ul li {
+    margin-bottom: .8rem;
+  }
 }
